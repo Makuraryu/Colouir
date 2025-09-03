@@ -1,0 +1,1113 @@
+
+[
+  {
+    "name": "撫子",
+    "color": "NADESHIKO",
+    "hex": "#DC9FB4"
+  },
+  {
+    "name": "紅梅",
+    "color": "KOHBAI",
+    "hex": "#E16B8C"
+  },
+  {
+    "name": "蘇芳",
+    "color": "SUOH",
+    "hex": "#8E354A"
+  },
+  {
+    "name": "退紅",
+    "color": "TAIKOH",
+    "hex": "#F8C3CD"
+  },
+  {
+    "name": "一斥染",
+    "color": "IKKONZOME",
+    "hex": "#F4A7B9"
+  },
+  {
+    "name": "桑染",
+    "color": "KUWAZOME",
+    "hex": "#64363C"
+  },
+  {
+    "name": "桃",
+    "color": "MOMO",
+    "hex": "#F596AA"
+  },
+  {
+    "name": "苺",
+    "color": "ICHIGO",
+    "hex": "#B5495B"
+  },
+  {
+    "name": "薄紅",
+    "color": "USUBENI",
+    "hex": "#E87A90"
+  },
+  {
+    "name": "今��",
+    "color": "IMAYOH",
+    "hex": "#D05A6E"
+  },
+  {
+    "name": "中紅",
+    "color": "NAKABENI",
+    "hex": "#DB4D6D"
+  },
+  {
+    "name": "桜",
+    "color": "SAKURA",
+    "hex": "#FEDFE1"
+  },
+  {
+    "name": "梅鼠",
+    "color": "UMENEZUMI",
+    "hex": "#9E7A7A"
+  },
+  {
+    "name": "韓紅花",
+    "color": "KARAKURENAI",
+    "hex": "#D0104C"
+  },
+  {
+    "name": "燕脂",
+    "color": "ENJI",
+    "hex": "#9F353A"
+  },
+  {
+    "name": "紅",
+    "color": "KURENAI",
+    "hex": "#CB1B45"
+  },
+  {
+    "name": "鴇",
+    "color": "TOKI",
+    "hex": "#EEA9A9"
+  },
+  {
+    "name": "長春",
+    "color": "CYOHSYUN",
+    "hex": "#BF6766"
+  },
+  {
+    "name": "深緋",
+    "color": "KOKIAKE",
+    "hex": "#86473F"
+  },
+  {
+    "name": "桜鼠",
+    "color": "SAKURANEZUMI",
+    "hex": "#B19693"
+  },
+  {
+    "name": "甚三紅",
+    "color": "JINZAMOMI",
+    "hex": "#EB7A77"
+  },
+  {
+    "name": "小豆",
+    "color": "AZUKI",
+    "hex": "#954A45"
+  },
+  {
+    "name": "蘇芳香",
+    "color": "SUOHKOH",
+    "hex": "#A96360"
+  },
+  {
+    "name": "赤紅",
+    "color": "AKABENI",
+    "hex": "#CB4042"
+  },
+  {
+    "name": "真朱",
+    "color": "SHINSYU",
+    "hex": "#AB3B3A"
+  },
+  {
+    "name": "灰桜",
+    "color": "HAIZAKURA",
+    "hex": "#D7C4BB"
+  },
+  {
+    "name": "栗梅",
+    "color": "KURIUME",
+    "hex": "#904840"
+  },
+  {
+    "name": "海老茶",
+    "color": "EBICHA",
+    "hex": "#734338"
+  },
+  {
+    "name": "銀朱",
+    "color": "GINSYU",
+    "hex": "#C73E3A"
+  },
+  {
+    "name": "黒鳶",
+    "color": "KUROTOBI",
+    "hex": "#554236"
+  },
+  {
+    "name": "紅鳶",
+    "color": "BENITOBI",
+    "hex": "#994639"
+  },
+  {
+    "name": "曙",
+    "color": "AKEBONO",
+    "hex": "#F19483"
+  },
+  {
+    "name": "紅樺",
+    "color": "BENIKABA",
+    "hex": "#B54434"
+  },
+  {
+    "name": "水がき",
+    "color": "MIZUGAKI",
+    "hex": "#B9887D"
+  },
+  {
+    "name": "珊瑚朱",
+    "color": "SANGOSYU",
+    "hex": "#F17C67"
+  },
+  {
+    "name": "紅檜皮",
+    "color": "BENIHIWADA",
+    "hex": "#884C3A"
+  },
+  {
+    "name": "猩猩緋",
+    "color": "SYOJYOHI",
+    "hex": "#E83015"
+  },
+  {
+    "name": "鉛丹",
+    "color": "ENTAN",
+    "hex": "#D75455"
+  },
+  {
+    "name": "芝翫茶",
+    "color": "SHIKANCHA",
+    "hex": "#B55D4C"
+  },
+  {
+    "name": "檜皮",
+    "color": "HIWADA",
+    "hex": "#854836"
+  },
+  {
+    "name": "柿渋",
+    "color": "KAKISHIBU",
+    "hex": "#A35E47"
+  },
+  {
+    "name": "緋",
+    "color": "AKE",
+    "hex": "#CC543A"
+  },
+  {
+    "name": "鳶",
+    "color": "TOBI",
+    "hex": "#724832"
+  },
+  {
+    "name": "紅緋",
+    "color": "BENIHI",
+    "hex": "#F75C2F"
+  },
+  {
+    "name": "栗皮茶",
+    "color": "KURIKAWACHA",
+    "hex": "#6A4028"
+  },
+  {
+    "name": "弁柄",
+    "color": "BENGARA",
+    "hex": "#9A5034"
+  },
+  {
+    "name": "照柿",
+    "color": "TERIGAKI",
+    "hex": "#C46243"
+  },
+  {
+    "name": "江戸茶",
+    "color": "EDOCHA",
+    "hex": "#AF5F3C"
+  },
+  {
+    "name": "洗朱",
+    "color": "ARAISYU",
+    "hex": "#FB966E"
+  },
+  {
+    "name": "百塩茶",
+    "color": "MOMOSHIOCHA",
+    "hex": "#724938"
+  },
+  {
+    "name": "唐茶",
+    "color": "KARACHA",
+    "hex": "#B47157"
+  },
+  {
+    "name": "ときがら茶",
+    "color": "TOKIGARACHA",
+    "hex": "#DB8E71"
+  },
+  {
+    "name": "黄丹",
+    "color": "OHNI",
+    "hex": "#F05E1C"
+  },
+  {
+    "name": "纁",
+    "color": "SOHI",
+    "hex": "#ED784A"
+  },
+  {
+    "name": "遠州茶",
+    "color": "ENSYUCHA",
+    "hex": "#CA7853"
+  },
+  {
+    "name": "樺茶",
+    "color": "KABACHA",
+    "hex": "#B35C37"
+  },
+  {
+    "name": "焦茶",
+    "color": "KOGECHA",
+    "hex": "#563F2E"
+  },
+  {
+    "name": "赤香",
+    "color": "AKAKOH",
+    "hex": "#E3916E"
+  },
+  {
+    "name": "雀茶",
+    "color": "SUZUMECHA",
+    "hex": "#8F5A3C"
+  },
+  {
+    "name": "宍",
+    "color": "SHISHI",
+    "hex": "#F0A986"
+  },
+  {
+    "name": "宗伝唐茶",
+    "color": "SODENKARACHA",
+    "hex": "#A0674B"
+  },
+  {
+    "name": "樺",
+    "color": "KABA",
+    "hex": "#C1693C"
+  },
+  {
+    "name": "深支子",
+    "color": "KOKIKUCHINASHI",
+    "hex": "#FB9966"
+  },
+  {
+    "name": "胡桃",
+    "color": "KURUMI",
+    "hex": "#947A6D"
+  },
+  {
+    "name": "代赭",
+    "color": "TAISYA",
+    "hex": "#A36336"
+  },
+  {
+    "name": "洗柿",
+    "color": "ARAIGAKI",
+    "hex": "#E79460"
+  },
+  {
+    "name": "黄櫨染",
+    "color": "KOHROZEN",
+    "hex": "#7D532C"
+  },
+  {
+    "name": "赤朽葉",
+    "color": "AKAKUCHIBA",
+    "hex": "#C78550"
+  },
+  {
+    "name": "礪茶",
+    "color": "TONOCHA",
+    "hex": "#985F2A"
+  },
+  {
+    "name": "赤白橡",
+    "color": "AKASHIROTSURUBAMI",
+    "hex": "#E1A679"
+  },
+  {
+    "name": "煎茶",
+    "color": "SENCHA",
+    "hex": "#855B32"
+  },
+  {
+    "name": "萱草",
+    "color": "KANZO",
+    "hex": "#FC9F4D"
+  },
+  {
+    "name": "洒落柿",
+    "color": "SHAREGAKI",
+    "hex": "#FFBA84"
+  },
+  {
+    "name": "紅鬱金",
+    "color": "BENIUKON",
+    "hex": "#E98B2A"
+  },
+  {
+    "name": "梅染",
+    "color": "UMEZOME",
+    "hex": "#E9A368"
+  },
+  {
+    "name": "枇杷茶",
+    "color": "BIWACHA",
+    "hex": "#B17844"
+  },
+  {
+    "name": "丁子茶",
+    "color": "CHOJICHA",
+    "hex": "#96632E"
+  },
+  {
+    "name": "憲法染",
+    "color": "KENPOHZOME",
+    "hex": "#43341B"
+  },
+  {
+    "name": "琥珀",
+    "color": "KOHAKU",
+    "hex": "#CA7A2C"
+  },
+  {
+    "name": "薄柿",
+    "color": "USUGAKI",
+    "hex": "#ECB88A"
+  },
+  {
+    "name": "伽羅",
+    "color": "KYARA",
+    "hex": "#78552B"
+  },
+  {
+    "name": "丁子染",
+    "color": "CHOJIZOME",
+    "hex": "#B07736"
+  },
+  {
+    "name": "柴染",
+    "color": "FUSHIZOME",
+    "hex": "#967249"
+  },
+  {
+    "name": "朽葉",
+    "color": "KUCHIBA",
+    "hex": "#E2943B"
+  },
+  {
+    "name": "金茶",
+    "color": "KINCHA",
+    "hex": "#C7802D"
+  },
+  {
+    "name": "狐",
+    "color": "KITSUNE",
+    "hex": "#9B6E23"
+  },
+  {
+    "name": "煤竹",
+    "color": "SUSUTAKE",
+    "hex": "#6E552F"
+  },
+  {
+    "name": "薄香",
+    "color": "USUKOH",
+    "hex": "#EBB471"
+  },
+  {
+    "name": "砥粉",
+    "color": "TONOKO",
+    "hex": "#D7B98E"
+  },
+  {
+    "name": "銀煤竹",
+    "color": "GINSUSUTAKE",
+    "hex": "#82663A"
+  },
+  {
+    "name": "黄土",
+    "color": "OHDO",
+    "hex": "#B68E55"
+  },
+  {
+    "name": "白茶",
+    "color": "SHIRACHA",
+    "hex": "#BC9F77"
+  },
+  {
+    "name": "媚茶",
+    "color": "KOBICHA",
+    "hex": "#876633"
+  },
+  {
+    "name": "黄唐茶",
+    "color": "KIGARACHA",
+    "hex": "#C18A26"
+  },
+  {
+    "name": "山吹",
+    "color": "YAMABUKI",
+    "hex": "#FFB11B"
+  },
+  {
+    "name": "山吹茶",
+    "color": "YAMABUKICHA",
+    "hex": "#D19826"
+  },
+  {
+    "name": "櫨染",
+    "color": "HAJIZOME",
+    "hex": "#DDA52D"
+  },
+  {
+    "name": "桑茶",
+    "color": "KUWACHA",
+    "hex": "#C99833"
+  },
+  {
+    "name": "玉子",
+    "color": "TAMAGO",
+    "hex": "#F9BF45"
+  },
+  {
+    "name": "白橡",
+    "color": "SHIROTSURUBAMI",
+    "hex": "#DCB879"
+  },
+  {
+    "name": "黄橡",
+    "color": "KITSURUBAMI",
+    "hex": "#BA9132"
+  },
+  {
+    "name": "玉蜀黍",
+    "color": "TAMAMOROKOSHI",
+    "hex": "#E8B647"
+  },
+  {
+    "name": "花葉",
+    "color": "HANABA",
+    "hex": "#F7C242"
+  },
+  {
+    "name": "生壁",
+    "color": "NAMAKABE",
+    "hex": "#7D6C46"
+  },
+  {
+    "name": "鳥の子",
+    "color": "TORINOKO",
+    "hex": "#DAC9A6"
+  },
+  {
+    "name": "浅黄",
+    "color": "USUKI",
+    "hex": "#FAD689"
+  },
+  {
+    "name": "黄朽葉",
+    "color": "KIKUCHIBA",
+    "hex": "#D9AB42"
+  },
+  {
+    "name": "梔子",
+    "color": "KUCHINASHI",
+    "hex": "#F6C555"
+  },
+  {
+    "name": "籐黄",
+    "color": "TOHOH",
+    "hex": "#FFC408"
+  },
+  {
+    "name": "鬱金",
+    "color": "UKON",
+    "hex": "#EFBB24"
+  },
+  {
+    "name": "芥子",
+    "color": "KARASHI",
+    "hex": "#CAAD5F"
+  },
+  {
+    "name": "肥後煤竹",
+    "color": "HIGOSUSUTAKE",
+    "hex": "#8D742A"
+  },
+  {
+    "name": "利休白茶",
+    "color": "RIKYUSHIRACHA",
+    "hex": "#B4A582"
+  },
+  {
+    "name": "灰汁",
+    "color": "AKU",
+    "hex": "#877F6C"
+  },
+  {
+    "name": "利休茶",
+    "color": "RIKYUCHA",
+    "hex": "#897D55"
+  },
+  {
+    "name": "路考茶",
+    "color": "ROKOHCHA",
+    "hex": "#74673E"
+  },
+  {
+    "name": "菜種油",
+    "color": "NATANEYU",
+    "hex": "#A28C37"
+  },
+  {
+    "name": "鶯茶",
+    "color": "UGUISUCHA",
+    "hex": "#6C6024"
+  },
+  {
+    "name": "黄海松茶",
+    "color": "KIMIRUCHA",
+    "hex": "#867835"
+  },
+  {
+    "name": "海松茶",
+    "color": "MIRUCHA",
+    "hex": "#62592C"
+  },
+  {
+    "name": "刈安",
+    "color": "KARIYASU",
+    "hex": "#E9CD4C"
+  },
+  {
+    "name": "菜の花",
+    "color": "NANOHANA",
+    "hex": "#F7D94C"
+  },
+  {
+    "name": "黄蘗",
+    "color": "KIHADA",
+    "hex": "#FBE251"
+  },
+  {
+    "name": "蒸栗",
+    "color": "MUSHIKURI",
+    "hex": "#D9CD90"
+  },
+  {
+    "name": "青朽葉",
+    "color": "AOKUCHIBA",
+    "hex": "#ADA142"
+  },
+  {
+    "name": "女郎花",
+    "color": "OMINAESHI",
+    "hex": "#DDD23B"
+  },
+  {
+    "name": "鶸茶",
+    "color": "HIWACHA",
+    "hex": "#A5A051"
+  },
+  {
+    "name": "鶸",
+    "color": "HIWA",
+    "hex": "#BEC23F"
+  },
+  {
+    "name": "鶯",
+    "color": "UGUISU",
+    "hex": "#6C6A2D"
+  },
+  {
+    "name": "柳茶",
+    "color": "YANAGICHA",
+    "hex": "#939650"
+  },
+  {
+    "name": "苔",
+    "color": "KOKE",
+    "hex": "#838A2D"
+  },
+  {
+    "name": "麹塵",
+    "color": "KIKUJIN",
+    "hex": "#B1B479"
+  },
+  {
+    "name": "璃寛茶",
+    "color": "RIKANCHA",
+    "hex": "#616138"
+  },
+  {
+    "name": "藍媚茶",
+    "color": "AIKOBICHA",
+    "hex": "#4B4E2A"
+  },
+  {
+    "name": "海松",
+    "color": "MIRU",
+    "hex": "#5B622E"
+  },
+  {
+    "name": "千歳茶",
+    "color": "SENSAICHA",
+    "hex": "#4D5139"
+  },
+  {
+    "name": "梅幸茶",
+    "color": "BAIKOCHA",
+    "hex": "#89916B"
+  },
+  {
+    "name": "鶸萌黄",
+    "color": "HIWAMOEGI",
+    "hex": "#90B44B"
+  },
+  {
+    "name": "柳染",
+    "color": "YANAGIZOME",
+    "hex": "#91AD70"
+  },
+  {
+    "name": "裏柳",
+    "color": "URAYANAGI",
+    "hex": "#B5CAA0"
+  },
+  {
+    "name": "岩井茶",
+    "color": "IWAICHA",
+    "hex": "#646A58"
+  },
+  {
+    "name": "萌黄",
+    "color": "MOEGI",
+    "hex": "#7BA23F"
+  },
+  {
+    "name": "苗",
+    "color": "NAE",
+    "hex": "#86C166"
+  },
+  {
+    "name": "柳煤竹",
+    "color": "YANAGISUSUTAKE",
+    "hex": "#4A593D"
+  },
+  {
+    "name": "松葉",
+    "color": "MATSUBA",
+    "hex": "#42602D"
+  },
+  {
+    "name": "青丹",
+    "color": "AONI",
+    "hex": "#516E41"
+  },
+  {
+    "name": "薄青",
+    "color": "USUAO",
+    "hex": "#91B493"
+  },
+  {
+    "name": "柳鼠",
+    "color": "YANAGINEZUMI",
+    "hex": "#808F7C"
+  },
+  {
+    "name": "常磐",
+    "color": "TOKIWA",
+    "hex": "#1B813E"
+  },
+  {
+    "name": "若竹",
+    "color": "WAKATAKE",
+    "hex": "#5DAC81"
+  },
+  {
+    "name": "千歳緑",
+    "color": "CHITOSEMIDORI",
+    "hex": "#36563C"
+  },
+  {
+    "name": "緑",
+    "color": "MIDORI",
+    "hex": "#227D51"
+  },
+  {
+    "name": "白緑",
+    "color": "BYAKUROKU",
+    "hex": "#A8D8B9"
+  },
+  {
+    "name": "老竹",
+    "color": "OITAKE",
+    "hex": "#6A8372"
+  },
+  {
+    "name": "木賊",
+    "color": "TOKUSA",
+    "hex": "#2D6D4B"
+  },
+  {
+    "name": "御納戸茶",
+    "color": "ONANDOCHA",
+    "hex": "#465D4C"
+  },
+  {
+    "name": "緑青",
+    "color": "ROKUSYOH",
+    "hex": "#24936E"
+  },
+  {
+    "name": "錆青磁",
+    "color": "SABISEIJI",
+    "hex": "#86A697"
+  },
+  {
+    "name": "青竹",
+    "color": "AOTAKE",
+    "hex": "#00896C"
+  },
+  {
+    "name": "ビロード",
+    "color": "VELUDO",
+    "hex": "#096148"
+  },
+  {
+    "name": "虫襖",
+    "color": "MUSHIAO",
+    "hex": "#20604F"
+  },
+  {
+    "name": "藍海松茶",
+    "color": "AIMIRUCHA",
+    "hex": "#0F4C3A"
+  },
+  {
+    "name": "沈香茶",
+    "color": "TONOCHA2",
+    "hex": "#4F726C"
+  },
+  {
+    "name": "青緑",
+    "color": "AOMIDORI",
+    "hex": "#00AA90"
+  },
+  {
+    "name": "青磁",
+    "color": "SEIJI",
+    "hex": "#69B0AC"
+  },
+  {
+    "name": "鉄",
+    "color": "TETSU",
+    "hex": "#26453D"
+  },
+  {
+    "name": "水浅葱",
+    "color": "MIZUASAGI",
+    "hex": "#66BAB7"
+  },
+  {
+    "name": "青碧",
+    "color": "SEIHEKI",
+    "hex": "#268785"
+  },
+  {
+    "name": "錆鉄御納戸",
+    "color": "SABITETSUONANDO",
+    "hex": "#405B55"
+  },
+  {
+    "name": "高麗納戸",
+    "color": "KORAINANDO",
+    "hex": "#305A56"
+  },
+  {
+    "name": "白群",
+    "color": "BYAKUGUN",
+    "hex": "#78C2C4"
+  },
+  {
+    "name": "御召茶",
+    "color": "OMESHICHA",
+    "hex": "#376B6D"
+  },
+  {
+    "name": "瓶覗",
+    "color": "KAMENOZOKI",
+    "hex": "#A5DEE4"
+  },
+  {
+    "name": "深川鼠",
+    "color": "FUKAGAWANEZUMI",
+    "hex": "#77969A"
+  },
+  {
+    "name": "錆浅葱",
+    "color": "SABIASAGI",
+    "hex": "#6699A1"
+  },
+  {
+    "name": "水",
+    "color": "MIZU",
+    "hex": "#81C7D4"
+  },
+  {
+    "name": "浅葱",
+    "color": "ASAGI",
+    "hex": "#33A6B8"
+  },
+  {
+    "name": "御納戸",
+    "color": "ONANDO",
+    "hex": "#0C4842"
+  },
+  {
+    "name": "藍",
+    "color": "AI",
+    "hex": "#0D5661"
+  },
+  {
+    "name": "新橋",
+    "color": "SHINBASHI",
+    "hex": "#0089A7"
+  },
+  {
+    "name": "錆御納戸",
+    "color": "SABIONANDO",
+    "hex": "#336774"
+  },
+  {
+    "name": "鉄御納戸",
+    "color": "TETSUONANDO",
+    "hex": "#255359"
+  },
+  {
+    "name": "花浅葱",
+    "color": "HANAASAGI",
+    "hex": "#1E88A8"
+  },
+  {
+    "name": "藍鼠",
+    "color": "AINEZUMI",
+    "hex": "#566C73"
+  },
+  {
+    "name": "舛花",
+    "color": "MASUHANA",
+    "hex": "#577C8A"
+  },
+  {
+    "name": "空",
+    "color": "SORA",
+    "hex": "#58B2DC"
+  },
+  {
+    "name": "熨斗目花",
+    "color": "NOSHIMEHANA",
+    "hex": "#2B5F75"
+  },
+  {
+    "name": "千草",
+    "color": "CHIGUSA",
+    "hex": "#3A8FB7"
+  },
+  {
+    "name": "御召御納戸",
+    "color": "OMESHIONANDO",
+    "hex": "#2E5C6E"
+  },
+  {
+    "name": "縹",
+    "color": "HANADA",
+    "hex": "#006284"
+  },
+  {
+    "name": "勿忘草",
+    "color": "WASURENAGUSA",
+    "hex": "#7DB9DE"
+  },
+  {
+    "name": "群青",
+    "color": "GUNJYO",
+    "hex": "#51A8DD"
+  },
+  {
+    "name": "露草",
+    "color": "TSUYUKUSA",
+    "hex": "#2EA9DF"
+  },
+  {
+    "name": "黒橡",
+    "color": "KUROTSURUBAMI",
+    "hex": "#0B1013"
+  },
+  {
+    "name": "紺",
+    "color": "KON",
+    "hex": "#0F2540"
+  },
+  {
+    "name": "褐",
+    "color": "KACHI",
+    "hex": "#08192D"
+  },
+  {
+    "name": "瑠璃",
+    "color": "RURI",
+    "hex": "#005CAF"
+  },
+  {
+    "name": "瑠璃紺",
+    "color": "RURIKON",
+    "hex": "#0B346E"
+  },
+  {
+    "name": "紅碧",
+    "color": "BENIMIDORI",
+    "hex": "#7B90D2"
+  },
+  {
+    "name": "藤鼠",
+    "color": "FUJINEZUMI",
+    "hex": "#6E75A4"
+  },
+  {
+    "name": "鉄紺",
+    "color": "TETSUKON",
+    "hex": "#261E47"
+  },
+  {
+    "name": "紺青",
+    "color": "KONJYO",
+    "hex": "#113285"
+  },
+  {
+    "name": "紅掛花",
+    "color": "BENIKAKEHANA",
+    "hex": "#4E4F97"
+  },
+  {
+    "name": "紺桔梗",
+    "color": "KONKIKYO",
+    "hex": "#211E55"
+  },
+  {
+    "name": "藤",
+    "color": "FUJI",
+    "hex": "#8B81C3"
+  },
+  {
+    "name": "二藍",
+    "color": "FUTAAI",
+    "hex": "#70649A"
+  },
+  {
+    "name": "楝",
+    "color": "OUCHI",
+    "hex": "#9B90C2"
+  },
+  {
+    "name": "藤紫",
+    "color": "FUJIMURASAKI",
+    "hex": "#8A6BBE"
+  },
+  {
+    "name": "桔梗",
+    "color": "KIKYO",
+    "hex": "#6A4C9C"
+  },
+  {
+    "name": "紫苑",
+    "color": "SHION",
+    "hex": "#8F77B5"
+  },
+  {
+    "name": "滅紫",
+    "color": "MESSHI",
+    "hex": "#533D5B"
+  },
+  {
+    "name": "薄",
+    "color": "USU",
+    "hex": "#B28FCE"
+  },
+  {
+    "name": "半",
+    "color": "HASHITA",
+    "hex": "#986DB2"
+  },
+  {
+    "name": "江戸紫",
+    "color": "EDOMURASAKI",
+    "hex": "#77428D"
+  },
+  {
+    "name": "紫紺",
+    "color": "SHIKON",
+    "hex": "#3C2F41"
+  },
+  {
+    "name": "深紫",
+    "color": "KOKIMURASAKI",
+    "hex": "#4A225D"
+  },
+  {
+    "name": "菫",
+    "color": "SUMIRE",
+    "hex": "#66327C"
+  },
+  {
+    "name": "紫",
+    "color": "MURASAKI",
+    "hex": "#592C63"
+  },
+  {
+    "name": "菖蒲",
+    "color": "AYAME",
+    "hex": "#6F3381"
+  },
+  {
+    "name": "藤煤竹",
+    "color": "FUJISUSUTAKE",
+    "hex": "#574C57"
+  },
+  {
+    "name": "紅藤",
+    "color": "BENIFUJI",
+    "hex": "#B481BB"
+  },
+  {
+    "name": "黒紅",
+    "color": "KUROBENI",
+    "hex": "#3F2B36"
+  }
+]

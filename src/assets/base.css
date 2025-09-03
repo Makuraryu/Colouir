@@ -1,0 +1,30 @@
+:root{
+    --picked: 254,223,225;
+    --picked-inv: 249,75,86;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(var(--picked));
+    color: rgb(var(--picked-inv));
+    transition: background-color 1.3s;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(var(--picked-inv),0.5);
+    margin: 5px;
+    transition: 0.3s;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+}
+a:hover{
+    text-shadow: 0 0 20px rgba(var(--picked-inv),0.8);
+    color: rgba(var(--picked-inv),1);
+}
+
