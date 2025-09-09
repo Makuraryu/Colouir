@@ -22,9 +22,8 @@
     flex: 0 0 auto;
   }
   #color-info{
-    max-width: 700px;
+    max-width: fit-content;
     align-content: flex-start;
-
     display: flex;
     flex: 0 1 auto;
     flex-wrap: wrap;
@@ -36,8 +35,11 @@
 
 <script setup lang="ts">
   import { ref } from 'vue'
+
   import ColorWheel from '@/components/ColorWheel.vue';
   import ColorInfos from '@/components/ColorInfos.vue';
+
+
   const colorName = ref("桜")
   const colorEng = ref("SAKURA")
   const colorHex = ref("#FEDFE1")

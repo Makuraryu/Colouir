@@ -108,3 +108,52 @@ export function SimpHSL({ h, s, l }: { h: number; s: number; l: number }): strin
 
     return `${Math.round(h)}, ${Math.round(s * 100)}, ${Math.round(l * 100)}`;
 }
+
+function round4(x: number) {
+    return Math.round(x * 10000) / 10000;
+}
+
+export function hexToOklab(hex: string): { L: number; a: number; b: number } {
+    if (hex.startsWith("#")) hex = hex.slice(1);
+    if (hex.length === 3) hex = hex.split("").map(c => c + c).join("");
+    if (hex.length !== 6) throw new Error("Invalid hex color");
+
+    const r = parseInt(hex.slice(0, 2), 16) / 255;
+    const g = parseInt(hex.slice(2, 4), 16) / 255;
+    const b = parseInt(hex.slice(4, 6), 16) / 255;
+
+    const linearize = (x: number) => x <= 0.04045 ? x / 12.92 : Math.pow((x + 0.055)/1.055, 2.4);
+    const R = linearize(r);
+    const G = linearize(g);
+    const B = linearize(b);
+
+    // linear sRGB → LMS
+    const L_ = 0.4122214708*R + 0.5363325363*G + 0.0514459929*B;
+    const M_ = 0.2119034982*R + 0.6806995451*G + 0.1073969566*B;
+    const S_ = 0.0883024619*R + 0.2817188376*G + 0.6299787005*B;
+
+    const l_ = Math.cbrt(L_);
+    const m_ = Math.cbrt(M_);
+    const s_ = Math.cbrt(S_);
+
+    const L = 0.2104542553*l_ + 0.7936177850*m_ - 0.0040720468*s_;
+    const a = 1.9779984951*l_ - 2.4285922050*m_ + 0.4505937099*s_;
+    const b_ = 0.0259040371*l_ + 0.7827717662*m_ - 0.8086757660*s_;
+
+    return { L: round4(L), a, b: round4(b_) };
+}
+
+export function simpOKLab({ L, a, b }: { L: number; a: number; b: number }): string {
+    return `${round4(L)}, ${round4(a)}, ${round4(b)}`;
+}
+
+export function hexToOklch(hex: string): { l: number; c: number; h: number } {
+    const { L, a, b } = hexToOklab(hex);
+    const C = Math.sqrt(a*a + b*b);
+    const h = (Math.atan2(b, a) * 180 / Math.PI + 360) % 360;
+    return { l: round4(L), c: round4(C), h: round4(h) };
+}
+
+export function simpOKLCH({ l, c, h }: { l: number; c: number; h: number }): string {
+    return `${round4(l)}, ${round4(c)}, ${round4(h)}`;
+}

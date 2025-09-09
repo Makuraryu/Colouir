@@ -1,8 +1,8 @@
 <template>
     <div class="color-wheel">
         <div id="wheel" :style="{'--size': radius + 'vh'}"></div>
+        
     </div>
-
 </template>
 <style>
     #wheel {
@@ -15,7 +15,7 @@
         margin: 20px;
         transition: 0.3s;
     }
-    .point {
+    .colorpoint {
         position: absolute;
         width: 16px;
         height: 16px;
@@ -26,7 +26,7 @@
         transition: 0.5s;
     }
 
-    .point:hover {
+    .colorpoint:hover {
         z-index: 999;
         box-shadow: 0 0 8px rgba(var(--picked-inv), 0.8);
         border: 1px solid rgba(var(--picked-inv), 0.3);
@@ -35,9 +35,21 @@
 
 </style>
 <script setup>
+    import { ref,onMounted, render } from 'vue';
     import {HexToRGB, rgbToHsl, invertLightness, SimpRGB} from "@/utils/ColorCal.ts";
+    import Cookies from 'js-cookie';
+    import { addAlert } from '@/components/Alert.vue' 
+
     const props = defineProps(['radius']);
     const emit = defineEmits(['name','color','hex']);
+
+    let intervalId
+    let previousColor
+    const currentColor = ref(Cookies.get('selectedColor') || 'Nippon-Color')
+    if (!Cookies.get('selectedColor')) {
+        Cookies.set('selectedColor', currentColor.value)
+    }
+    previousColor = currentColor.value
 
     function placeColorPoint(hex, centerX, centerY, radius, name, engName) {
         const {r, g, b} = HexToRGB(hex);
@@ -50,14 +62,13 @@
         const y = centerY + rScaled * Math.sin(angle);
 
         const point = document.createElement("div");
-        point.className = "point";
+        point.className = "colorpoint";
         point.style.left = `${x}px`;
         point.style.top = `${y}px`;
         point.style.background = hex;
         point.id = name;
 
         point.addEventListener("click", () => {
-
             document.documentElement.style.setProperty('--picked', SimpRGB(HexToRGB(hex)));
             document.documentElement.style.setProperty('--picked-inv', SimpRGB(HexToRGB(invertLightness(hex))));
             emit('name', name);
@@ -73,13 +84,40 @@
         return window.innerHeight * (vh / 100);
     }
 
-    fetch('/colors.json')
-    .then(response => response.json())
-    .then(data => {
-        data.forEach(c => {
-        placeColorPoint(c.hex, vhToPx(props.radius), vhToPx(props.radius), vhToPx(props.radius), c.name, c.color);
-        });
+    function renderPoints(jsonData){
+        document.querySelectorAll('.colorpoint').forEach(el => el.remove());
+
+        fetch(`/data/${jsonData}.json`)
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(c => {
+                placeColorPoint(c.hex, vhToPx(props.radius), vhToPx(props.radius), vhToPx(props.radius), c.name, c.color);
+            });
+        })
+        .catch(err => console.error(err));
+    }
+
+    function handleColorChange(newColor) {
+        renderPoints(newColor);
+    }
+
+    onMounted(() => {
+        renderPoints(currentColor.value)
+
+        intervalId = window.setInterval(() => {
+            const cookieColor = Cookies.get('selectedColor') || ''
+            if (cookieColor !== previousColor) {
+                previousColor = cookieColor
+                currentColor.value = cookieColor
+                handleColorChange(cookieColor)
+                addAlert(`Switched to ${cookieColor} palette!`);
+
+            }
+        }, 200)
     })
-    .catch(err => console.error(err));
+    
+
+
+
 
 </script>

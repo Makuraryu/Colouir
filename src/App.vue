@@ -1,4 +1,5 @@
 <template>
+<Alert />
 
 <h1 id="title">Colouir</h1>
 <nav>
@@ -6,11 +7,15 @@
   <RouterLink to="/about">About</RouterLink>
 </nav>
 
-<RouterView />
+<transition name="fade" mode="out-in">
+  <RouterView />
+
+</transition>
 </template>
 
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import Alert from '@/components/Alert.vue'
 </script>
 
 <style scoped>
@@ -27,5 +32,11 @@ nav {
   font-size: 40px;
   text-shadow: 0 0 20px rgba(var(--picked-inv),0.7);
   transition: text-shadow 2s,color 1.5s;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
 }
 </style>
