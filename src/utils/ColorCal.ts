@@ -103,3 +103,8 @@ export function invertLightness(hex: string): string {
 export function SimpRGB({ r, g, b }: { r: number; g: number; b: number }): string {
     return `${r}, ${g}, ${b}`;
 }
+
+export function SimpHSL({ h, s, l }: { h: number; s: number; l: number }): string {
+
+    return `${Math.round(h)}, ${Math.round(s * 100)}, ${Math.round(l * 100)}`;
+}

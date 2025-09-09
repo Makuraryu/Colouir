@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
+
+
 :root{
     --picked: 254,223,225;
     --picked-inv: 249,75,86;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
 
 body{
     margin: 0;

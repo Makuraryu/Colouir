@@ -5,9 +5,6 @@
 
 </template>
 <style>
-
-    @import url('@/assets/base.css');
-
     #wheel {
         position: relative;
         width: calc(2 * var(--size));
