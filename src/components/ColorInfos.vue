@@ -8,6 +8,7 @@
         <Info class="info" name="HSL" :info="hsl" />
         <Info class="info" name="OKLab" :info="oklab" />
         <Info class="info" name="OKLCH" :info="oklch" />
+        <Info class="info" name="CMYK" :info="cmyk" />
         <select v-model="selectedData">
             <option v-for="data in givenData" :key="data" :value="data">Palette: {{ data }}</option>
         </select>
@@ -44,7 +45,7 @@ select:hover{
     import Info from '@/components/Info.vue';
     import { computed,watch,ref } from 'vue';
     import Cookies from 'js-cookie';
-    import { HexToRGB, rgbToHsl, invertLightness, SimpRGB, SimpHSL, triadicColors, hexToOklab, hexToOklch, simpOKLab, simpOKLCH } from "@/utils/ColorCal.ts";
+    import { HexToRGB, rgbToHsl, invertLightness, SimpRGB, SimpHSL, triadicColors, hexToOklab, hexToOklch, simpOKLab, simpOKLCH, hexToCmyk, simpCMYK } from "@/utils/ColorCal.ts";
     const givenData = ['Nippon-Color', 'Catppuccin-Frappé', 'Chinese-Color']
     const selectedData = ref(givenData[0])
     watch(selectedData , (newVal) => {
@@ -60,5 +61,5 @@ select:hover{
     });
     const oklab = computed(() => simpOKLab(hexToOklab(props.hex)));
     const oklch = computed(() => simpOKLCH(hexToOklch(props.hex)));
-
+    const cmyk = computed(() => simpCMYK(hexToCmyk(props.hex)));
 </script>

@@ -5,6 +5,7 @@
 <nav>
   <RouterLink to="/">Home</RouterLink>
   <RouterLink to="/about">About</RouterLink>
+  <a href="https://github.com/Makuraryu/Colouir">GitHub</a>
 </nav>
 
 <transition name="fade" mode="out-in">
@@ -22,7 +23,7 @@ import Alert from '@/components/Alert.vue'
 
 nav {
   position: fixed;
-  right: 5px;
+  right: 20px;
   bottom: 5px;
   z-index: 999;
 }

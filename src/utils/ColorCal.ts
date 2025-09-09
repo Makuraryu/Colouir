@@ -157,3 +157,32 @@ export function hexToOklch(hex: string): { l: number; c: number; h: number } {
 export function simpOKLCH({ l, c, h }: { l: number; c: number; h: number }): string {
     return `${round4(l)}, ${round4(c)}, ${round4(h)}`;
 }
+
+
+export function hexToCmyk(hex: string): [number, number, number, number] {
+  hex = hex.replace(/^#/, '');
+
+  if (hex.length !== 6) {
+    throw new Error('Invalid hex color');
+  }
+
+  const r = parseInt(hex.slice(0, 2), 16) / 255;
+  const g = parseInt(hex.slice(2, 4), 16) / 255;
+  const b = parseInt(hex.slice(4, 6), 16) / 255;
+
+  const k = 1 - Math.max(r, g, b);
+
+  if (k === 1) {
+    return [0, 0, 0, 1];
+  }
+
+  const c = (1 - r - k) / (1 - k);
+  const m = (1 - g - k) / (1 - k);
+  const y = (1 - b - k) / (1 - k);
+
+  return [c, m, y, k];
+}
+
+export function simpCMYK([c, m, y, k]: [number, number, number, number]): string {
+    return `${Math.round(c * 100)}, ${Math.round(m * 100)}, ${Math.round(y * 100)}, ${Math.round(k * 100)}`;
+}

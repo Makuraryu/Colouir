@@ -110,7 +110,7 @@
                 previousColor = cookieColor
                 currentColor.value = cookieColor
                 handleColorChange(cookieColor)
-                addAlert(`Switched to ${cookieColor} palette!`);
+                addAlert(`Switched to ${cookieColor} Palette!`);
 
             }
         }, 200)

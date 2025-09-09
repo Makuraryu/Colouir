@@ -29,6 +29,16 @@
     flex-wrap: wrap;
     gap: 20px;
   }
+  @media (max-width: 860px) {
+    .panel {
+      flex-direction: column;
+      align-items: center;
+      width: 100vw;
+      left: 0;
+      gap: 20px;
+    }
+
+  }
   
   
 </style>
