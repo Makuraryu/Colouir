@@ -27,16 +27,18 @@ You can extend Colouir by adding your own palettes:
 	1.	Place a new JSON file inside the public/data folder, e.g. myPalette.json.
 Example format:
 
+```json
 [
-{
-    "name": "撫子",
-    "color": "NADESHIKO",
-    "hex": "#DC9FB4"
-  }
-  // ...
+	{
+		"name": "撫子",
+		"color": "NADESHIKO",
+		"hex": "#DC9FB4"
+  	},
+	// more colors...
 ]
+```
 
-
-	2.	Open src/components/ColorInfos.vue and add a new entry to the givenData array in the <script> section, using the same name as your JSON file.
+	2.	Open public/data/PaletteList.json and add an entry for your new palette.
+	3.   Submit a pull request.
 
 Once added, your palette will be rendered automatically in the app.
