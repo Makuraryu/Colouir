@@ -9,7 +9,7 @@
         <Info class="info" name="OKLab" :info="oklab" />
         <Info class="info" name="OKLCH" :info="oklch" />
         <Info class="info" name="CMYK" :info="cmyk" />
-        <select v-model="selectedData">
+        <select v-model="selectedData" v-if="selectedData">
             <option v-for="data in givenData" :key="data" :value="data">Palette: {{ data }}</option>
         </select>
     </div>
@@ -36,7 +36,7 @@ select:hover{
     box-shadow: 0 0 50px 2px rgba(var(--picked-inv), 0.2);
     background-color: rgba(var(--picked-inv), 0.9);
     color: rgb(var(--picked));
-    letter-spacing: 2px;
+    font-weight: 900;    
 }
 </style>
 
@@ -46,8 +46,16 @@ select:hover{
     import { computed,watch,ref } from 'vue';
     import Cookies from 'js-cookie';
     import { HexToRGB, rgbToHsl, invertLightness, SimpRGB, SimpHSL, triadicColors, hexToOklab, hexToOklch, simpOKLab, simpOKLCH, hexToCmyk, simpCMYK } from "@/utils/ColorCal.ts";
-    const givenData = ['Nippon-Color', 'Catppuccin-Frappé', 'Chinese-Color']
-    const selectedData = ref(givenData[0])
+    const givenData = []
+    const selectedData = ref('')
+    fetch('/data/PaletteList.json')
+        .then(response => response.json())
+        .then(data => {
+            givenData.push(...data);
+            console.log(givenData);
+            selectedData.value = Cookies.get('selectedColor') || data[0];
+        });
+
     watch(selectedData , (newVal) => {
         Cookies.set('selectedColor', newVal);
     })

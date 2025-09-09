@@ -41,34 +41,8 @@
 
 <section class="card" aria-labelledby="contribute">
   <h2 id="contribute">🤝 How to contribute a new palette</h2>
-  <p class="muted">
-    You can add your own palette locally, or contribute it back to the project on GitHub.  
-    To contribute, click the <strong>GitHub</strong> button in the bottom-right corner of this site and follow the steps below:
-  </p>
-
-  <ol style="margin-left:20px;color:var(--muted)">
-    <li>Fork the repository to your GitHub account.</li>
-    <li>Add a JSON file inside the <code class="inline">public/data</code> folder, for example <code class="inline">myPalette.json</code>.</li>
-    <li>Open <code class="inline">src/components/ColorInfos.vue</code> and add an entry to the <code class="inline">givenData</code> array in the <code class="inline">&lt;script&gt;</code> section, using the same name as your JSON file.</li>
-    <li>Commit your changes and submit a Pull Request (PR).</li>
-  </ol>
-
-  <p class="muted" style="margin-top:8px">Example JSON format:</p>
-
-  <pre><code>
-    [
-      {
-        "name": "撫子",
-        "color": "NADESHIKO",
-        "hex": "#DC9FB4"
-      }
-      // ...
-    ]
-  </code></pre>
-
-  <p class="muted" style="margin-top:10px">
-    After adding the file and updating <code class="inline">givenData</code>, the new palette will be rendered automatically.  
-    Once your PR is merged, your contribution will become part of Colouir. 🎉
+  <p>
+    If you have a color palette you'd like to see in Colouir, you can <a href="http://github.com/Makuraryu/Colouir">contribute</a> it!
   </p>
 </section>
 </div>
