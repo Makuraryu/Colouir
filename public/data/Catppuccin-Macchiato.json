@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Rosewater",
+    "color": "rosewater",
+    "hex": "#f4dbd6"
+  },
+  {
+    "name": "Flamingo",
+    "color": "flamingo",
+    "hex": "#f0c6c6"
+  },
+  {
+    "name": "Pink",
+    "color": "pink",
+    "hex": "#f5bde6"
+  },
+  {
+    "name": "Mauve",
+    "color": "mauve",
+    "hex": "#c6a0f6"
+  },
+  {
+    "name": "Red",
+    "color": "red",
+    "hex": "#ed8796"
+  },
+  {
+    "name": "Maroon",
+    "color": "maroon",
+    "hex": "#ee99a0"
+  },
+  {
+    "name": "Peach",
+    "color": "peach",
+    "hex": "#f5a97f"
+  },
+  {
+    "name": "Yellow",
+    "color": "yellow",
+    "hex": "#eed49f"
+  },
+  {
+    "name": "Green",
+    "color": "green",
+    "hex": "#a6da95"
+  },
+  {
+    "name": "Teal",
+    "color": "teal",
+    "hex": "#8bd5ca"
+  },
+  {
+    "name": "Sky",
+    "color": "sky",
+    "hex": "#91d7e3"
+  },
+  {
+    "name": "Sapphire",
+    "color": "sapphire",
+    "hex": "#7dc4e4"
+  },
+  {
+    "name": "Blue",
+    "color": "blue",
+    "hex": "#8aadf4"
+  },
+  {
+    "name": "Lavender",
+    "color": "lavender",
+    "hex": "#b7bdf8"
+  },
+  {
+    "name": "Text",
+    "color": "text",
+    "hex": "#cad3f5"
+  },
+  {
+    "name": "Subtext 1",
+    "color": "subtext1",
+    "hex": "#b8c0e0"
+  },
+  {
+    "name": "Subtext 0",
+    "color": "subtext0",
+    "hex": "#a5adcb"
+  },
+  {
+    "name": "Overlay 2",
+    "color": "overlay2",
+    "hex": "#939ab7"
+  },
+  {
+    "name": "Overlay 1",
+    "color": "overlay1",
+    "hex": "#8087a2"
+  },
+  {
+    "name": "Overlay 0",
+    "color": "overlay0",
+    "hex": "#6e738d"
+  },
+  {
+    "name": "Surface 2",
+    "color": "surface2",
+    "hex": "#5b6078"
+  },
+  {
+    "name": "Surface 1",
+    "color": "surface1",
+    "hex": "#494d64"
+  },
+  {
+    "name": "Surface 0",
+    "color": "surface0",
+    "hex": "#363a4f"
+  },
+  {
+    "name": "Base",
+    "color": "base",
+    "hex": "#24273a"
+  },
+  {
+    "name": "Mantle",
+    "color": "mantle",
+    "hex": "#1e2030"
+  },
+  {
+    "name": "Crust",
+    "color": "crust",
+    "hex": "#181926"
+  }
+]
