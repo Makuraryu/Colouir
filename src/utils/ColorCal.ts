@@ -144,7 +144,7 @@ export function hexToOklab(hex: string): { L: number; a: number; b: number } {
 }
 
 export function simpOKLab({ L, a, b }: { L: number; a: number; b: number }): string {
-    return `${round4(L)}, ${round4(a)}, ${round4(b)}`;
+    return `${round4(L)} ${round4(a)} ${round4(b)}`;
 }
 
 export function hexToOklch(hex: string): { l: number; c: number; h: number } {
@@ -155,7 +155,7 @@ export function hexToOklch(hex: string): { l: number; c: number; h: number } {
 }
 
 export function simpOKLCH({ l, c, h }: { l: number; c: number; h: number }): string {
-    return `${round4(l)}, ${round4(c)}, ${round4(h)}`;
+    return `${round4(l)} ${round4(c)} ${round4(h)}`;
 }
 
 
