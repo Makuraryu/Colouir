@@ -1,0 +1,257 @@
+[
+  {
+    "name": "黄赭",
+    "color": "YELLOWOCHRE",
+    "hex": "#CDA434"
+  },
+  {
+    "name": "赭石",
+    "color": "OCHRE",
+    "hex": "#CC7722"
+  },
+  {
+    "name": "生赭",
+    "color": "RAWSIENNA",
+    "hex": "#D68A59"
+  },
+  {
+    "name": "熟赭",
+    "color": "BURNTSIENNA",
+    "hex": "#E97451"
+  },
+  {
+    "name": "生棕土",
+    "color": "RAWUMBER",
+    "hex": "#826644"
+  },
+  {
+    "name": "熟棕土",
+    "color": "BURNTUMBER",
+    "hex": "#8A3324"
+  },
+  {
+    "name": "赤陶",
+    "color": "TERRACOTTA",
+    "hex": "#E2725B"
+  },
+  {
+    "name": "陶土",
+    "color": "CLAY",
+    "hex": "#B66A50"
+  },
+  {
+    "name": "土坯",
+    "color": "ADOBE",
+    "hex": "#BD6C48"
+  },
+  {
+    "name": "砖红",
+    "color": "BRICK",
+    "hex": "#B55239"
+  },
+  {
+    "name": "锈红",
+    "color": "RUST",
+    "hex": "#B7410E"
+  },
+  {
+    "name": "铜",
+    "color": "COPPER",
+    "hex": "#B87333"
+  },
+  {
+    "name": "青铜",
+    "color": "BRONZE",
+    "hex": "#8C7853"
+  },
+  {
+    "name": "栗棕",
+    "color": "CHESTNUT",
+    "hex": "#954535"
+  },
+  {
+    "name": "红木",
+    "color": "MAHOGANY",
+    "hex": "#7B3F00"
+  },
+  {
+    "name": "胡桃木",
+    "color": "WALNUT",
+    "hex": "#5B3A29"
+  },
+  {
+    "name": "浓缩咖啡",
+    "color": "ESPRESSO",
+    "hex": "#3B2F2F"
+  },
+  {
+    "name": "咖啡",
+    "color": "COFFEE",
+    "hex": "#6F4E37"
+  },
+  {
+    "name": "可可",
+    "color": "COCOA",
+    "hex": "#7B5D42"
+  },
+  {
+    "name": "巧克力",
+    "color": "CHOCOLATE",
+    "hex": "#5D3A21"
+  },
+  {
+    "name": "焦糖",
+    "color": "CARAMEL",
+    "hex": "#AF6F09"
+  },
+  {
+    "name": "太妃糖",
+    "color": "TOFFEE",
+    "hex": "#8F5F3F"
+  },
+  {
+    "name": "蜂蜜",
+    "color": "HONEY",
+    "hex": "#C58F1F"
+  },
+  {
+    "name": "卡其",
+    "color": "KHAKI",
+    "hex": "#BDB76B"
+  },
+  {
+    "name": "棕褐",
+    "color": "TAN",
+    "hex": "#D2B48C"
+  },
+  {
+    "name": "米色",
+    "color": "BEIGE",
+    "hex": "#F5F5DC"
+  },
+  {
+    "name": "灰褐",
+    "color": "TAUPE",
+    "hex": "#483C32"
+  },
+  {
+    "name": "沙",
+    "color": "SAND",
+    "hex": "#D4C19C"
+  },
+  {
+    "name": "砂岩",
+    "color": "SANDSTONE",
+    "hex": "#D2BA8A"
+  },
+  {
+    "name": "小麦",
+    "color": "WHEAT",
+    "hex": "#F5DEB3"
+  },
+  {
+    "name": "鹿皮黄",
+    "color": "BUFF",
+    "hex": "#F0DC82"
+  },
+  {
+    "name": "本白",
+    "color": "ECRU",
+    "hex": "#C2B280"
+  },
+  {
+    "name": "羊皮纸",
+    "color": "PARCHMENT",
+    "hex": "#F1E9D2"
+  },
+  {
+    "name": "亚麻",
+    "color": "LINEN",
+    "hex": "#EDE6D6"
+  },
+  {
+    "name": "骨白",
+    "color": "BONE",
+    "hex": "#E3DAC9"
+  },
+  {
+    "name": "象牙",
+    "color": "IVORY",
+    "hex": "#FFFFF0"
+  },
+  {
+    "name": "奶油",
+    "color": "CREAM",
+    "hex": "#FFFDD0"
+  },
+  {
+    "name": "驼色",
+    "color": "CAMEL",
+    "hex": "#C19A6B"
+  },
+  {
+    "name": "幼鹿色",
+    "color": "FAWN",
+    "hex": "#E5AA70"
+  },
+  {
+    "name": "燕麦",
+    "color": "OAT",
+    "hex": "#D2C2AC"
+  },
+  {
+    "name": "蘑菇灰",
+    "color": "MUSHROOM",
+    "hex": "#B7A39E"
+  },
+  {
+    "name": "腻子灰",
+    "color": "PUTTY",
+    "hex": "#CEC5B6"
+  },
+  {
+    "name": "石褐",
+    "color": "STONE",
+    "hex": "#9D8B7C"
+  },
+  {
+    "name": "灰米",
+    "color": "GREIGE",
+    "hex": "#BEB7A4"
+  },
+  {
+    "name": "鼠尾草",
+    "color": "SAGE",
+    "hex": "#B2AC88"
+  },
+  {
+    "name": "橄榄褐",
+    "color": "OLIVEDRAB",
+    "hex": "#6B8E23"
+  },
+  {
+    "name": "枯橄榄",
+    "color": "OLIVE",
+    "hex": "#756D3A"
+  },
+  {
+    "name": "橄榄棕",
+    "color": "OLIVEBROWN",
+    "hex": "#645530"
+  },
+  {
+    "name": "苔藓",
+    "color": "MOSS",
+    "hex": "#8A9A5B"
+  },
+  {
+    "name": "地衣",
+    "color": "LICHEN",
+    "hex": "#9DAE8F"
+  },
+  {
+    "name": "泥炭",
+    "color": "PEAT",
+    "hex": "#4E4B3A"
+  }
+]
