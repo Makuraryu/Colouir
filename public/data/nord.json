@@ -1,0 +1,82 @@
+[
+	{
+		"name": "深夜蓝",
+		"color": "Base component color of Polar Night",
+		"hex": "#2e3440"
+	},
+	{
+		"name": "北极夜",
+		"color": "Lighter shade color of Polar Night base component",
+		"hex": "#3b4252"
+	},
+	{
+		"name": "暮色蓝",
+		"color": "Lighter shade color of Polar Night, used for line highlighting",
+		"hex": "#434c5e"
+	},
+	{
+		"name": "暗灰蓝",
+		"color": "Lighter shade color of Polar Night, used for comments",
+		"hex": "#4c566a"
+	},
+	{
+		"name": "雪云灰",
+		"color": "Base component color of Snow Storm",
+		"hex": "#d8dee9"
+	},
+	{
+		"name": "霜白",
+		"color": "Lighter shade color of Snow Storm base component",
+		"hex": "#e5e9f0"
+	},
+	{
+		"name": "雪原白",
+		"color": "Lighter shade color of Snow Storm, used for punctuation",
+		"hex": "#eceff4"
+	},
+	{
+		"name": "青冰蓝",
+		"color": "Bluish core color, used for classes and types",
+		"hex": "#8fbcbb"
+	},
+	{
+		"name": "冰川蓝",
+		"color": "Bluish core accent color, represents the accent color",
+		"hex": "#88c0d0"
+	},
+	{
+		"name": "天空蓝",
+		"color": "Bluish core color, used for keywords and operators",
+		"hex": "#81a1c1"
+	},
+	{
+		"name": "深海蓝",
+		"color": "Bluish core color, used for doctypes and import statements",
+		"hex": "#5e81ac"
+	},
+	{
+		"name": "极光红",
+		"color": "Colorful component color, used for errors",
+		"hex": "#bf616a"
+	},
+	{
+		"name": "暖橘色",
+		"color": "Colorful component color, used for annotations",
+		"hex": "#d08770"
+	},
+	{
+		"name": "晨曦金",
+		"color": "Colorful component color, used for escape characters and warnings",
+		"hex": "#ebcb8b"
+	},
+	{
+		"name": "极光绿",
+		"color": "Colorful component color, used for strings",
+		"hex": "#a3be8c"
+	},
+	{
+		"name": "极光紫",
+		"color": "Colorful component color, used for numbers",
+		"hex": "#b48ead"
+	}
+]
